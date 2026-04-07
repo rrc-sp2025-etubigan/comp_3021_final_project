@@ -1,5 +1,6 @@
 name: Bandit
 on: [push, pull_request]
+permissions: {}
 jobs:
   analyze:
     runs-on: ubuntu-latest
