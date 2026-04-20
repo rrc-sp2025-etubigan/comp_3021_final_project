@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Parks & Open Spaces</h1>
+    </header>
+    <main>
+        <label for="park-name-input">Park Name</label>
+        <input type="text" name="park-name" id="park-name-input">
+        <label for="user-query-input"></label>
+        <input type="text" name="user-query" id="user-query-input>
+        <label for="district-input">District</label>
+        <select name="district" id="district-input">
+            <option value="">-- Select a district --</option>
+            <option value="North">North</option>
+            <option value="East">East</option>
+            <option value="South">South</option>
+            <option value="Downtown">Downtown</option>
+        </select>
+        <input type="submit" id="submit-btn" value="Search">
+        <div id="results"></div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

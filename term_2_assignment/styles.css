@@ -1,0 +1,59 @@
+body {
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-none {
+    display: none;
+}
+
+#navigation-container {
+    width: fit-content;
+    padding: 10px 5px;
+    margin: auto;
+
+    input {
+        width: fit-content;
+        padding: 5px 20px;
+        margin: 0px 30px;
+    }
+}
+
+.table-header{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    align-self: start;
+}
+
+.cell {
+    width: 80%;
+    align-self: start;
+}
+
+#results-table {
+    display: grid;
+    column-gap: 15px;
+    row-gap: 5px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px repeat(21, minmax(20px, 35px));
+
+    border: solid 2px black;
+    padding: 10px;
+}
